@@ -1,0 +1,83 @@
+
+  
+
+
+
+
+body {
+    background-color:darkslateblue; /* Blue color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  /* White form box */
+  .form-box {
+    width: 80%; /* Increase width */
+    /* max-width: 600px; Limiting max width */
+    background-color: #fff; /* White color */
+    padding: 100px;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Blue form inside white box */
+  .form-container {
+    background-color: darkslateblue; /* Blue color */
+    padding: 20px;
+    border-radius: 10px;
+    border-top-right-radius: 80px;
+  }
+  
+  /* Form heading */
+  .form-heading {
+    color: #fff; /* White color */
+    text-align: center;
+    font-size: x-large;
+  }
+  
+  /* Form field */
+  .form-field {
+    margin-bottom: 20px;
+  }
+  
+  .form-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #fff; /* White color */
+  }
+  
+  .form-field input[type="text"],
+  .form-field select {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Form button */
+  .form-button,
+  .form-submit-button {
+    background-color: #fff; /* White color */
+    color: #007bff; /* Blue color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-button:hover,
+  .form-submit-button:hover {
+    background-color: #f0f0f0; /* Light gray */
+  }
+  .form-submitted-message{
+    font-size: x-large;
+    color: green;
+  }
